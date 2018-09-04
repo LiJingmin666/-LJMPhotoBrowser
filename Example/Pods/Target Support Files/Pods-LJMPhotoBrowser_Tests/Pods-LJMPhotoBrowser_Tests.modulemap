@@ -1,0 +1,6 @@
+framework module Pods_LJMPhotoBrowser_Tests {
+  umbrella header "Pods-LJMPhotoBrowser_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

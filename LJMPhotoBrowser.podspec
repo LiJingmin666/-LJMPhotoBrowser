@@ -32,6 +32,10 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'LJMPhotoBrowser/Classes/**/*'
   
+  s.dependency 'MBProgressHUD', '~> 1.1.0'
+  s.dependency 'DACircularProgress', '~> 2.3.1'
+  s.dependency 'SDWebImage', '~> 4.4.2'
+  
   # s.resource_bundles = {
   #   'LJMPhotoBrowser' => ['LJMPhotoBrowser/Assets/*.png']
   # }

@@ -1,0 +1,6 @@
+framework module LJMPhotoBrowser {
+  umbrella header "LJMPhotoBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}
