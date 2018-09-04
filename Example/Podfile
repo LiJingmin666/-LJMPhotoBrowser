@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LJMPhotoBrowser_Example' do
+  pod 'LJMPhotoBrowser', :path => '../'
+
+  target 'LJMPhotoBrowser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
