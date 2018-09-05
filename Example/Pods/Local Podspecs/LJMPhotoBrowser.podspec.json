@@ -1,6 +1,6 @@
 {
   "name": "LJMPhotoBrowser",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "summary": "A short description of LJMPhotoBrowser.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LiJingmin666/LJMPhotoBrowser",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/LiJingmin666/LJMPhotoBrowser.git",
-    "tag": "0.1.0"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
@@ -28,6 +28,11 @@
     ],
     "SDWebImage": [
       "~> 4.4.2"
+    ]
+  },
+  "resource_bundles": {
+    "LJMPhotoBrowser": [
+      "LJMPhotoBrowser/Assets/*.png"
     ]
   }
 }

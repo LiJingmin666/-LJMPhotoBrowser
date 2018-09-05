@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LJMPhotoBrowser'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of LJMPhotoBrowser.'
 
 # This description is used to generate tags and improve search results.
@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   s.dependency 'SDWebImage', '~> 4.4.2'
   
   s.resource_bundles = {
-     'LJMPhotoBrowser' => ['LJMPhotoBrowser/Assets/*.png']
+     'LJMPhotoBrowser' => ['LJMPhotoBrowser/Assets/*.bundle']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
